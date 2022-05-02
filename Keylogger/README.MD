@@ -20,7 +20,7 @@
 
 ### Step 1:
 
-    Open Termnial 💻
+    Open Terminal 💻
 
 ### Step 2:
 
