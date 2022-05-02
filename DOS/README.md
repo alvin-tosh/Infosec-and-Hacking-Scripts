@@ -13,7 +13,7 @@ This script is written in python3 and can be used to perform a DoS(Denial of Ser
 
 ### Step 1:
 
-    Open Termnial 💻
+    Open Terminal 💻
 
 ### Step 2:
 
