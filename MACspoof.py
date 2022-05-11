@@ -56,3 +56,7 @@ if changed_mac == command_args.new_mac:
   print('\n[+] MAC Adress was successfully changed from {} to {}'.format(prev_mac, changed_mac))
 else:
   print('\n[-] Could not change the MAC Address')
+
+      
+      
+ # Have fun!!
