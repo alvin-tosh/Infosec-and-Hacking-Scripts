@@ -14,16 +14,16 @@ SUPPORTED_HASHES = {"sha1" : 40, "sha224" : 56, "sha256" : 64, "sha384" : 96, "s
 
 
 def get_hash_of(plain_text, algo):
-    """ Getting hash value of plain text with a specific hashing algo.
+    """ Getting hash value of plain text with a specific hashing algorithm.
     Args:
         plain_text ([string]) : [word that was readed from the word list]
         algo ([string])       : [hashing algorithm]
     Returns:
         hashed([string])      : [the hashed value of plain text with passed hashing algo.] """
 
-    hashed = hashlib.new(algo)  # passing the hashing algo.
-    hashed.update(plain_text.encode())   # get the hash value with given hash algo. 
-    return hashed.hexdigest()   # return the hash value.
+    hashed = hashlib.new(algo)           # passing the hashing algorithm.
+    hashed.update(plain_text.encode())   # get the hash value with given hash algorithm. 
+    return hashed.hexdigest()            # return the hash value.
 
 
 def reading_wordlist():
@@ -56,13 +56,14 @@ def reading_wordlist():
 
 
 def check_inputs_validation(hash_value, hashing_algo):
-    """ Checking the validation of hash value and hash algo.
+    """ Checking the validation of hash value and hash algorithm.
     Args:
-        hash_value ([string])   : [readed hash value from the user]
-        hashing_algo ([string]) : [readed hashing algorithm from the user] """
+        hash_value ([string])   : [read hash value from the user]
+        hashing_algo ([string]) : [read hashing algorithm from the user] """
 
     hash_length = len(hash_value)
-    # chack the general length
+    
+    # check the general length
     if hash_length < 32:
         print( f"{red}[-] Invalid Hash Length !" ,white)
         quit()
@@ -87,6 +88,7 @@ def main():
     print("[?] Checking Inputs Validation")
     check_inputs_validation(hash_value, hash_algo)
     words = reading_wordlist()
+    
     # cracking the hash
     for word in words:
         word = word.rstrip("\n")
