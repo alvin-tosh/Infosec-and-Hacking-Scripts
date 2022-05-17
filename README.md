@@ -5,6 +5,8 @@ The protection of computer systems and networks from information disclosure, the
 Scripts are lists of commands executed by certain programs or scripting engines. They are usually text documents with instructions written using a scripting language. They are used to automate computer processes...ie attacks and defenses. lets have fun!
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+```
+## EXAMPLE
 ### 1. Wifidos :robot:
 Wireless Dos Attack with wifidos Bash Script
 
@@ -13,7 +15,7 @@ Usage:
 Change Permissions: chmod 755 wifidos
 
 To run the script: ./wifidos
-
+```
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## PS : THIS SCRIPTS AND REPO IS FOR EDUCATIONAL PURPOSES ONLY! I am NOT responsible for the misuse of this scripts to cause harm in the public or upon any infrastructure. USE THESE VERY POWERFUL TOOLS RESPONSIBLY, BE COOL!:smirk::stuck_out_tongue_winking_eye:
 
