@@ -7,7 +7,7 @@ Scripts are lists of commands executed by certain programs or scripting engines.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ```
 ## EXAMPLE
-### 1. Wifidos :robot:
+### 1. Wifidos 🤖
 Wireless Dos Attack with wifidos Bash Script
 
 Usage:
