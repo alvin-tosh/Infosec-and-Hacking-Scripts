@@ -17,5 +17,8 @@ Change Permissions: chmod 755 wifidos
 To run the script: ./wifidos
 ```
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## PS : THIS SCRIPTS AND REPO IS FOR EDUCATIONAL PURPOSES ONLY! I am NOT responsible for the misuse of this scripts to cause harm in the public or upon any infrastructure. USE THESE VERY POWERFUL TOOLS RESPONSIBLY, BE COOL!:smirk::stuck_out_tongue_winking_eye:
+```
+## PS : THIS SCRIPTS AND REPO IS FOR EDUCATIONAL PURPOSES ONLY! I am NOT responsible for the misuse of this scripts to cause harm in the public or upon any infrastructure. USE THESE VERY POWERFUL TOOLS RESPONSIBLY, BE COOL!😏 😜
+
+```
 
