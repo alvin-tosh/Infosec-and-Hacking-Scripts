@@ -27,7 +27,9 @@ Organization
 * `wireless` - Wireless testing tools.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ```
-## PS : THIS 👆 SCRIPTS AND REPO IS FOR EDUCATIONAL PURPOSES ONLY! I am NOT responsible for the misuse of this scripts to cause harm 👿 in the public 👨‍👨‍👧‍👧 or upon any infrastructure 🏛️. USE THESE VERY POWERFUL TOOLS RESPONSIBLY, BE COOL!👌 😏 😜
+## PS : THIS 👆 SCRIPTS AND REPO IS FOR EDUCATIONAL PURPOSES ONLY! 
+I am NOT responsible for the misuse of this scripts to cause harm 👿 in the public 👨‍👨‍👧‍👧 or upon any infrastructure 🏛️. 
+USE THESE VERY POWERFUL TOOLS RESPONSIBLY, BE COOL!👌 😏 😜
 
 ```
 
