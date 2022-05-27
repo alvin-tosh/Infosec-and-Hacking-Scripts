@@ -7,6 +7,7 @@ import re
 
 class ssh:
 
+    # Declare them variables
     def __init__(self, user, key, host):
         self.__user = user
         self.__key = key
@@ -77,9 +78,9 @@ class ssh:
             return True
 
     def get_users(self):
-        '''
-        Read and parse the /etc/passwd file to get new user accounts.
-        '''
+        
+        # Read and parse the /etc/passwd file to get new user accounts.
+       
         print '[*] Getting additional users.'
         users = []
         resp = self.run_ssh_command('cat /etc/passwd')
@@ -92,9 +93,9 @@ class ssh:
         return users
 
     def get_hosts(self):
-        '''
-        Read and parse the .ssh/known_hosts file to get new hosts.
-        '''
+        
+        # Read and parse the .ssh/known_hosts file to get new hosts.
+        
         print '[*] Getting additional hosts.'
         hosts = []
         resp = self.run_ssh_command('cat .ssh/known_hosts')
@@ -107,28 +108,25 @@ class ssh:
         return hosts
 
     def get_shadow(self):
-        '''
-        Get the /etc/shadow file and save it to disk. Will only work if we
-        are root or have sudo ability.
-        '''
+        
+        # Get the /etc/shadow file and save it to disk. Will only work if we are root or have sudo ability.
+        
         print '[*] Getting shadow file from {0}.'.format(self.__host)
         dst = '{0}_shadow'.format(self.__host)
         self.__download_file('/etc/shadow', dst, True)
 
     def get_history(self):
-        '''
-        Get the .bash_history file and save it to disk.
-        '''
+        
+        # Get the .bash_history file and save it to disk.
+        
         print '[*] Getting Bash history file from {0}.'.format(self.__host)
         dst = '{0}_{1}_history'.format(self.__host, self.__user)
         self.__download_file('.bash_history', dst, True)
 
     def get_ssl_keys(self):
-        '''
-        Download any private SSL keys. Look in the directory specified by
-        OPENSSLDIR in the output of the 'openssl version -a' command. only
-        download .crt and .key files. Requires root or sudo.
-        '''
+        
+        # Download any private SSL keys. Look in the directory specified by OPENSSLDIR in the output of the 'openssl version -a' command. only download .crt and .key files. Requires root or sudo.
+        
         print '[*] Getting SSL keys, if any, from {0}'.format(self.__host)
         ssldir = None
         resp = self.run_ssh_command('openssl version -a')
@@ -152,10 +150,9 @@ class ssh:
                 print '[-] No SSL keys were found.'
 
     def get_ssh_keys(self):
-        '''
-        Download the SSH keys in the .ssh directory. Return the list of keys
-        found.
-        '''
+        
+        # Download the SSH keys in the .ssh directory. Return the list of keys found.
+        
         print '[*] Getting additional SSH keys from {0}'.format(self.__host)
         keys = []
         resp = self.run_ssh_command('ls .ssh')
@@ -183,6 +180,7 @@ def audit_ssh(user, key, host):
     and key provided. Attempt to get SSH keys, shadow file, bash_history and
     SSL private keys. Also add new users and hosts if allowed.
     '''
+    
     print '[*] Auditing {0}@{1} with {2}.'.format(user, host, key)
     server = ssh(user, key, host)
     if server.authenticated is True:
@@ -200,9 +198,9 @@ def audit_ssh(user, key, host):
 
 
 def add_new_users(new_users):
-    '''
-    Add new users to the global users list unless already in the list.
-    '''
+    
+    # Add new users to the global users list unless already in the list.
+    
     for user in new_users:
         if user in users:
             continue
