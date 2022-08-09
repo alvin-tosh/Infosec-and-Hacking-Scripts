@@ -1,4 +1,4 @@
-# Mailer
+# PhishMailer
 Mailer is a social engineering toolkit.<br>It's used for sending spear-phishing to target email...It was created by Spider Anongreyhat
 
 
