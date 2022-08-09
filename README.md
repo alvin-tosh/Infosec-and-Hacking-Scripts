@@ -7,7 +7,7 @@ Scripts are lists of commands executed by certain programs or scripting engines.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Introduction
 ------------
-This is a collection of scripts I have written to use in pentests. Let me know if there are any problems with the scripts. If you have any suggestions for new scripts let me know as well; I am always looking for new ideas.
+This is a collection of scripts I wrote while learning scripting and programming or used in pentests. If you have any suggestions for new scripts let me know as well; I am always looking for new ideas.
 
 Scripts:
 ------------
