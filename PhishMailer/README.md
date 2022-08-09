@@ -1,5 +1,5 @@
-# PhishMailer
-Mailer is a social engineering toolkit.<br>It's used for sending spear-phishing to target email...It was created by Spider Anongreyhat
+# PhishingMailer
+Mailer is a social engineering toolkit.<br>It's used for sending spear-phishing to target email...created by spideranongreyhat
 
 
 ## Screenshots
