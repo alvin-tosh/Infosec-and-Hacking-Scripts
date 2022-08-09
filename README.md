@@ -9,7 +9,7 @@ Introduction
 ------------
 This is a collection of scripts I have written to use in pentests. Let me know if there are any problems with the scripts. If you have any suggestions for new scripts let me know as well; I am always looking for new ideas.
 
-Organization
+Scripts:
 ------------
 * `bruteforce` - Password brute forcing.
 * `cloud` - Interacting with or testing cloud-based services.
@@ -22,7 +22,7 @@ Organization
 * `phishing` - Tools to facilitate phishing.
 * `postexploit` - Tools for gathering data post exploitation.
 * `scan` - Network scanners and parsers.
-* `shells` - No explanation necessary.
+* `shells` - well, shells!!
 * `webapp` - Tools for web application testing.
 * `wireless` - Wireless testing tools.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
