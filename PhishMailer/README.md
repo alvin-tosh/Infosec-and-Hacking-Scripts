@@ -1,4 +1,5 @@
 # PhishingMailer
+PS: Not the same as Phishmailer by BiZken but does the about the same.
 Mailer is a social engineering toolkit.<br>It's used for sending spear-phishing to target email...created by spideranongreyhat
 
 
