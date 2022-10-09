@@ -1,4 +1,4 @@
-# Cybersec101 	:monocle_face: :nerd_face:
+# Infosec-and-Hacking-Scripts  	:monocle_face: :nerd_face:
 
 The protection of computer systems and networks from information disclosure, theft of or damage to their hardware, software, or electronic data, as well as from the disruption or misdirection of the services they provide. 
 
