@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# Copyright (c) 2012, AverageSecurityGuy
+# Copyright (c) 2021, Palpatine
 # All rights reserved.
 
 #

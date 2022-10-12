@@ -3,7 +3,6 @@
 from builtins import input
 from sys import argv, exit
 
-version = 1.0
 
 logo='''    #####################################################################
 		         _             ___ _               _             

