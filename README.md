@@ -5,10 +5,10 @@
       They are used to automate computer processes...ie attacks, automation and defenses. lets have fun! 😏
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Introduction
+Introduction😄
 ------------
-      This is a collection of scripts I wrote while learning scripting and programming or used in pentests. 
-      If you have any suggestions for new scripts let me know as well; I am always looking for new ideas.
+      This is a collection of scripts I wrote while learning scripting and programming or used in pentests 😉
+      If you have any suggestions for new scripts let me know as well; I am always looking for new ideas 😁
 
 <img src="3105anoncover.gif" height="500" width="1750" >
 
