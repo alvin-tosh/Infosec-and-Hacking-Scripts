@@ -9,7 +9,7 @@ Introduction
 ------------
 This is a collection of scripts I wrote while learning scripting and programming or used in pentests. If you have any suggestions for new scripts let me know as well; I am always looking for new ideas.
 
-<img src="zhackgithub1.gif " height="500" width="1750" >
+<img src="3105anoncover.gif" height="500" width="1750" >
 
 Scripts: (Am still structuring this repo....WIP)
 ------------
