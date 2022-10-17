@@ -12,14 +12,13 @@ Introduction😄
 
 <img src="3105anoncover.gif" height="500" width="1750" >
 
-Scripts: (Am still structuring this repo....WIP)
+Scripts: (still structuring this repo....WIP)
 ------------
     * bruteforce - Password brute forcing.
     * cloud - Interacting with or testing cloud-based services.
     * database - Testing traditional databases.
     * enumeration - Enumerate DNS, web applications, and users.
     * exploit - Exploits and exploit development.
-    * nosql - Testing non-traditional databases.
     * osint - Open source intelligence gathering.
     * passwords - Password.
     * phishing - Tools to facilitate phishing.
