@@ -1,8 +1,8 @@
 # Infosec-and-Hacking-Scripts  	:monocle_face: :nerd_face:
 
-      The protection and auditing of computer systems and networks from information disclosure, theft of or damage to their hardware, software, 
-      or electronic data, as well as from the disruption or misdirection of the services they provide. 
-      Scripts are lists of commands executed by certain programs or scripting engines. They are usually text documents with instructions written using a scripting language. They are used to automate computer processes...ie attacks and defenses. lets have fun!
+      Scripts are lists of commands executed by certain programs or scripting engines. 
+      They are usually text documents with instructions written using a scripting language. 
+      They are used to automate computer processes...ie attacks and defenses. lets have fun!
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Introduction
