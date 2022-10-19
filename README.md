@@ -27,9 +27,9 @@ Scripts: (still structuring this repo....WIP)
     * shells - well, shells!!
     * webapp - Tools for web application testing.
     * wireless - Wireless testing tools.
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ```
-## PS : THIS 👆 SCRIPTS AND REPO IS FOR EDUCATIONAL PURPOSES ONLY! 
+## PS : THIS 👆 SCRIPTS AND REPO IS FOR EDUCATIONAL PURPOSES ONLY!! 
 I am NOT responsible for the misuse of this scripts to cause harm 👿 in the public 👨‍👨‍👧‍👧 or upon any infrastructure 🏛️. 
 USE THESE VERY POWERFUL TOOLS RESPONSIBLY, BE COOL!👌 😏 😜
 
