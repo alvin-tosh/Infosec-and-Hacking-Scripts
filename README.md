@@ -12,7 +12,7 @@ Introduction😄
 
 <img src="3105anoncover.gif" height="500" width="1750" >
 
-Scripts: (still structuring this repo....WIP)
+Scripts: (still structuring this repo....WIP..😏)
 ------------
     * bruteforce - Password brute forcing.
     * cloud - Interacting with or testing cloud-based services.
