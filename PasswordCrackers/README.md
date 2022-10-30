@@ -1,1 +1,1 @@
-<>
+## Password cracker scripts
