@@ -208,12 +208,3 @@ twint.run.Search(c)
 Notes:
 - [Google translate has some quotas](https://cloud.google.com/translate/quotas)
 
-## Featured Blog Posts:
-- [How to use Twint as an OSINT tool](https://pielco11.ovh/posts/twint-osint/)
-- [Basic tutorial made by Null Byte](https://null-byte.wonderhowto.com/how-to/mine-twitter-for-targeted-information-with-twint-0193853/)
-- [Analyzing Tweets with NLP in minutes with Spark, Optimus and Twint](https://towardsdatascience.com/analyzing-tweets-with-nlp-in-minutes-with-spark-optimus-and-twint-a0c96084995f)
-- [Loading tweets into Kafka and Neo4j](https://markhneedham.com/blog/2019/05/29/loading-tweets-twint-kafka-neo4j/)
-
-## Contact
-
-If you have any question, want to join in discussions, or need extra help, you are welcome to join the Twint focused channel at [OSINT team](https://osint.team)
