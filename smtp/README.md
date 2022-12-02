@@ -1,1 +1,1 @@
-<>
+# SMTP users scripts
