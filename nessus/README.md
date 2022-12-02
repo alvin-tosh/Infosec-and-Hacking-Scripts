@@ -1,1 +1,1 @@
-<>
+# Nessus scripts
