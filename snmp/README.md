@@ -1,1 +1,1 @@
-<>
+# SNMP enumeration scripts
