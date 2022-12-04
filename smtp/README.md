@@ -1,1 +1,1 @@
-# SMTP users scripts
+# SMTP user enumeration scripts
