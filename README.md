@@ -7,8 +7,8 @@
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Introduction😄
 ------------
-      This is a collection of scripts I wrote while learning scripting and programming or used in pentests 😉
-      If you have any suggestions for new scripts let me know as well; I am always looking for new ideas 😁
+      This is a collection of scripts I use/write while learning scripting and programming or used in pentests 😉
+      If you have any dope new scripts you use let me know as well/ Contribute; I am always looking for new scripts 😁
 
 <img src="3105anoncover.gif" height="500" width="1750" >
 
