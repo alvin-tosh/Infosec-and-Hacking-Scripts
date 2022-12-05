@@ -1,1 +1,1 @@
-Generated scripts
+# Generated scripts
