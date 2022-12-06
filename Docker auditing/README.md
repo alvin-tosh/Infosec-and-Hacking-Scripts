@@ -1,3 +1,3 @@
 # Docker security audit
 ============================================================================================
-### Docker Bench Security script that checks for dozens of common best-practices around deploying Docker containers in production.
+### Docker Bench Security: Script that checks for common best-practices around deploying Docker containers in production.
