@@ -1,3 +1,3 @@
-python Hacks
+Python Hacks
 =======
 Python Scripts for Hacking 
