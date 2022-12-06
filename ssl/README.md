@@ -1,1 +1,1 @@
-<>
+# SSL scanner
