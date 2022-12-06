@@ -1,1 +1,1 @@
-# Live Host enumeration
+# Live Host enumeration/Discovery
