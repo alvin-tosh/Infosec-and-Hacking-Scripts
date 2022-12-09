@@ -1,1 +1,1 @@
-# SMB enumaration
+# SMB enumeration
