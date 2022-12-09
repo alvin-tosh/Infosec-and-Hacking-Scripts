@@ -1,1 +1,2 @@
-# SMTP user enumeration scripts
+# Simple Mail Transfer Protocol (SMTP) 
+### SMTP user enumeration scripts
