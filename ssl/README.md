@@ -1,1 +1,1 @@
-# SSL certificate scanner
+# SSL certificates scanner
