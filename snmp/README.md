@@ -1,1 +1,1 @@
-# SNMP enumeration scripts
+# Simple Network Management Protocol (SNMP) enumeration scripts
