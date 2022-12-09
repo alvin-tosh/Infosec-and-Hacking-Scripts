@@ -1,1 +1,1 @@
-# Port Scanning scripts
+# TCP/UDP Scanning scripts
