@@ -1,1 +1,1 @@
-# Nessus scripts
+# Nessus tool scripts
