@@ -3,7 +3,7 @@
 
 
 if [[ $EUID -ne 0 ]]; then
-  echo "For better results, run this script as root." 1>&2
+  echo "For better results, run script as root." 1>&2
   exit 1
 fi
 
