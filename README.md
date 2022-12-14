@@ -9,9 +9,9 @@ Introduction😄
 ------------
       This is a collection of scripts I USE while learning scripting and programming or used in pentests😉
       * I DO NOT claim ownership of all scripts...This is just a convenient collection of different scripts
-      * written by different authors (including myself) for different scenrios in pentesting...A hackers Bible of some sort😄
+      * written by different authors (including myself) for different scenarios in pentesting...A hackers Bible of some sort😄
       * MOST, save for a few, are written by other reserchers from GITHUB, HACKERONE, BUGCROWD, YOUTUBE etc
-      If you have any dope new scripts you use/Or a shoutout let me know as well/ Contribute; I am always looking for new scripts 😁
+      * If you have any dope new scripts you use/Or a shoutout let me know as well/ Contribute; I am always looking for new scripts 😁
 
 <img src="3105anoncover.gif" height="500" width="1750" >
 
