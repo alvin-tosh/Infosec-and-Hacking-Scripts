@@ -1,6 +1,4 @@
 #!/usr/bin/env python
-# Copyright (c) 2022, alvin-tosh
-# All rights reserved.
 
 import argparse
 import re
