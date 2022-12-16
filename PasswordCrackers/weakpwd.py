@@ -1,6 +1,4 @@
 #!/usr/bin/env python
-# Edited by Palpatine Copyright (c) 2022
-# All rights reserved.
 
 import argparse
 
