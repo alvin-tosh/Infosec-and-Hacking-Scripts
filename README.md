@@ -34,7 +34,6 @@ Scripts: (still structuring this repo....WIP..😏)
     * shells - well, shells!!
     * webapp - Tools for web application testing.
     * wireless - Wireless testing tools.
------------------------------------------
     * phishing - Tools to facilitate phishing.
   ----------------------------------------------------------------------------------------------------------------------------
 ```
