@@ -12,7 +12,7 @@ Introduction😄
       * written by different authors (including myself) for different scenarios in pentesting...A hackers Bible of some sort😄
       
       * MOST, save for a few, are written by other reserchers from;
-      - GITHUB (PentestKIT...etc), 
+      - GITHUB ( Maldevel, threat9, John Hammond...etc), 
       - HACKERONE, 
       - BUGCROWD, 
       - YOUTUBE, 
@@ -30,14 +30,13 @@ Scripts: (still structuring this repo....WIP..😏)
     * enumeration - Enumerate DNS, web applications, and users.
     * exploit - Exploits and exploit development.
     * osint - Open source intelligence gathering.
-    * passwords - Password.
-    * phishing - Tools to facilitate phishing.
-    * postexploit - Tools for gathering data post exploitation.
     * scan - Network scanners and parsers.
     * shells - well, shells!!
     * webapp - Tools for web application testing.
     * wireless - Wireless testing tools.
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------
+    * phishing - Tools to facilitate phishing.
+  ----------------------------------------------------------------------------------------------------------------------------
 ```
 ## PS : THIS 👆 SCRIPTS AND REPO IS FOR EDUCATIONAL PURPOSES ONLY!! 
 I am NOT responsible for the misuse of this scripts to cause harm 👿 in the public 👨‍👨‍👧‍👧 or upon any infrastructure 🏛️. 
