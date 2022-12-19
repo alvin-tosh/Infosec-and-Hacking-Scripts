@@ -3,14 +3,14 @@
 import hashlib
 import os
 
-# Set colours for better visuals
+# colours for better visuals
 red    = "\033[91m"
 green  = "\033[92m"    
 white  = "\033[97m"
 yellow = "\033[93m"
 
 
-# Create a dictionary of supported hash
+# Create a dictionary of supported hashes
 SUPPORTED_HASHES = {"sha1" : 40, "sha224" : 56, "sha256" : 64, "sha384" : 96, "sha512" : 128, "md5" : 32}
 
 
