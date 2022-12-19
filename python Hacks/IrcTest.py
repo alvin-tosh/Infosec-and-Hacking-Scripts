@@ -28,7 +28,9 @@ class IRCProtocol(irc.IRCClient):
         irc.IRCClient.connectionLost(self, reason)
 	print "disconnected at %s" % time.asctime(time.localtime(time.time()))
 
-    # Funciones de callback para eventos producidos en el servidor (Twisted es orientado a eventos!)
+    # Funciones de callback para eventos producidos en el servidor (Event oriented)
+    # Callback for events produced in the server
+	
     def signedOn(self): #Logado en el servidor
         self.join(self.factory.channel)
 
