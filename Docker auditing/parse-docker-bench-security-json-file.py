@@ -2,10 +2,8 @@
 # encoding: UTF-8
 
 __author__ = "maldevel"
-__copyright__ = "Copyright (c) 2017-2019 @maldevel"
 __credits__ = ["maldevel"]
 __license__ = "GPLv3"
-__version__ = "0.1"
 __maintainer__ = "maldevel"
 
 #######################################################################################################
