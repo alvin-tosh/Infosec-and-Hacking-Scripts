@@ -4,7 +4,7 @@ import time, sys
 
 class IRCProtocol(irc.IRCClient):
 
-    nickname = 'aaanotherOne'
+    nickname = 'Spice'
     '''
     nickname	Nickname the client will use.
     password	Password used to log on to the server. May be None.
@@ -28,7 +28,9 @@ class IRCProtocol(irc.IRCClient):
         irc.IRCClient.connectionLost(self, reason)
 	print "disconnected at %s" % time.asctime(time.localtime(time.time()))
 
-    # Callback for events produced in the server
+    # Event Oriented
+
+    # Calls for events to the server
 	
     def signedOn(self): #Log into the server
         self.join(self.factory.channel)
