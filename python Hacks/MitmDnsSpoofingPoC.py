@@ -11,7 +11,7 @@ import argparse
 import pdb
 
 #
-#	ARPSpoofing and DNSPoisoning script. I just want to replace tools like arpspoof and dnsspoof for a simple Python Script.
+#	ARPSpoofing and DNSPoisoning script. replaces tools like arpspoof and dnsspoof for a simple Python Script.
 #	Author: Adastra.
 #	http://thehackerway.com
 #
