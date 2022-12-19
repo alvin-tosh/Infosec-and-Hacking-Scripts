@@ -1,8 +1,8 @@
 import jwt;
 
-print("Script para ejecutar fuerza bruta sobre un token JWT")
+print("Script for bruteforcing JWT tokens")
 encoded = input("JWT TOKEN: ")
-passwords = input("Diccionario: ")
+passwords = input("Dictionary: ")
 
 
 with open(passwords) as secrets:
