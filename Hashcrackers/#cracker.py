@@ -101,5 +101,5 @@ def main():
             print(f"{red}[-] Cracked Failed @ {yellow}{word}{white}")
 
 
-# calling main function
+# call main function
 main()
