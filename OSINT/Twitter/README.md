@@ -1,4 +1,5 @@
-# INSTALL TWINT TO USE THESE SCRIPTS! - Twitter Intelligence Tool
+# TWINT SCRIPTS: Twitter Intelligence Tool
+Install Twint to mess with these scripts. Share or contribute your twint scripts as well.
 
 # TWINT - Twitter Intelligence Tool
 ![2](https://i.imgur.com/iaH3s7z.png)
