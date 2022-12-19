@@ -28,28 +28,27 @@ class IRCProtocol(irc.IRCClient):
         irc.IRCClient.connectionLost(self, reason)
 	print "disconnected at %s" % time.asctime(time.localtime(time.time()))
 
-    # Funciones de callback para eventos producidos en el servidor (Event oriented)
     # Callback for events produced in the server
 	
-    def signedOn(self): #Logado en el servidor
+    def signedOn(self): #Log into the server
         self.join(self.factory.channel)
 
-    def joined(self, channel): #Cuando el usuario (programa) se une al canal
+    def joined(self, channel): 
 	print 'Joined to %s ' %(channel)
 
-    def privmsg(self, user, channel, msg): # Mensaje privado
+    def privmsg(self, user, channel, msg): # Private message
 	print "%s sends a private message: %s " %(user, msg)
 
-    def action(self, user, channel, msg): # Cuando cualquier usuario ejecuta una accion en el canal
+    def action(self, user, channel, msg): # executing an action in the channel
 	print "%s action %s: " %(user, msg)
 
-    def userJoined(self, user, channel): # Cuando un usuario se une al canal.
+    def userJoined(self, user, channel): # User joins chanel
         print "%s Joined! " %(user)
 
-    def userQuit(self, user, quitMessage): # Cuando un usuario sale del canal.
+    def userQuit(self, user, quitMessage): # User leaves chanel
 	print '%s Quit... %s' %(user, quitMessage)
 
-    def userRenamed(self, oldname, newname): #Cuando un usuario cambia su nickname.
+    def userRenamed(self, oldname, newname): # changing your username
 	print 'Oldnick: %s Newnick: %s ' %(oldname, newname)
 
 
