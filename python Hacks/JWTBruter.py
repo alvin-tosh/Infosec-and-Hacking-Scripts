@@ -13,6 +13,6 @@ with open(passwords) as secrets:
             break
         except jwt.InvalidTokenError as e:
             print(e)
-            print('Token Invalido .... [' + secret.rstrip() + ']')
+            print('Token Invalid .... [' + secret.rstrip() + ']')
         except jwt.ExpiredSignatureError:
-            print('Token Expirado ....[' + secret.rstrip() + ']')
+            print('Token Expired ....[' + secret.rstrip() + ']')
