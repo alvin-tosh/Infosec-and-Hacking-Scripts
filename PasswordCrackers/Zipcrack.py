@@ -3,7 +3,7 @@ import os
 
 
 def cracking_zip(zip_file_name, passwords_list):
-    """[how to crack ZIP file]
+    """[how to use: Crack ZIP files]
     Args:
         zip_file_name ([string]): [ to take the ZIP file name you want to crack ]
         passwords_list ([list]): [ to get the list of passwords from the file to do the test with them ]
