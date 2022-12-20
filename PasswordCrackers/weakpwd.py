@@ -83,10 +83,7 @@ def write_pass(p):
 #Parse command line arguments using argparse
 desc = """weak_passwords.py takes a username or userlist, a company name or
 company list (optional) and a wordlist (optional) and creates username and
-password combinations formatted for use in Metasploit. The script includes
-some common passwords cited by Chris Gates (carnal0wnage) and Rob Fuller
-(mubix) in their talk "The Dirty Little Secrets They Didn't Teach You In
-Pentesting Class" presented at Derbycon 2011. The passwords are transformed
+password combinations formatted for use in Metasploit. The passwords are transformed
 using some of the best64 rules from hashcat.
 """
 parser = argparse.ArgumentParser(description=desc)
