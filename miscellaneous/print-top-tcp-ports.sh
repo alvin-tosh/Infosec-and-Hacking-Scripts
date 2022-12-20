@@ -1,8 +1,7 @@
 #!/bin/bash
 
-#    This file is part of PenTestKit
-#    Copyright (C) 2017-2018 @maldevel
-#    https://github.com/maldevel/PenTestKit
+#    
+#    by @maldevel  
 #
 #    PenTestKit - Useful tools for Penetration Testing.
 #
