@@ -1,3 +1,5 @@
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
+
 # Dependencies
 You need to install shodan with pip install shodan or easy_install shodan.<br />
 You need to install python-nmap with pip install python-nmap.<br />
