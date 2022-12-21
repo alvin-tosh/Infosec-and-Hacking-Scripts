@@ -68,6 +68,6 @@
 
 ![Screenshot (142)](https://user-images.githubusercontent.com/55796944/90333875-04d92300-dfe7-11ea-9849-02a671598e6c.jpg)
 
-## The Script is Yours.. Happy Hacking 👨🏻‍💻
+## Happy Hacking 👨🏻‍💻
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
