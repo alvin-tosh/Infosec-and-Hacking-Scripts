@@ -4,7 +4,7 @@ you will need to replace;
 
 - [REMOTE_IP_ADDRESS], 
 - [USERNAME], and 
-[PASSWORD] 
+- [PASSWORD] 
 
 with the IP address of the remote system, your username on the remote system, and your password, respectively.
 
