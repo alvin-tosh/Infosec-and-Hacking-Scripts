@@ -1,1 +1,1 @@
-USB Rubber ducky scripts
+# USB Rubber ducky scripts
