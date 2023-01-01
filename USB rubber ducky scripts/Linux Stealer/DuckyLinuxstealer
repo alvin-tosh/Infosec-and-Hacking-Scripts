@@ -1,0 +1,22 @@
+REM This script looks for the /etc/passwd and /etc/shadow files, copies them, and saves them for viewing later.
+
+REM Set the output directory for the copied files
+SET output_dir "/root/passwd_shadow"
+
+REM Create the output directory if it does not exist
+MKDIR %output_dir%
+
+REM Check for the /etc/passwd file
+IF EXIST /etc/passwd (
+    REM Copy the /etc/passwd file to the output directory
+    cp /etc/passwd %output_dir%
+)
+
+REM Check for the /etc/shadow file
+IF EXIST /etc/shadow (
+    REM Copy the /etc/shadow file to the output directory
+    cp /etc/shadow %output_dir%
+)
+
+REM Print a message indicating that the files have been copied
+echo "The /etc/passwd and /etc/shadow files have been copied to %output_dir% for viewing."
