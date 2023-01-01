@@ -1,4 +1,4 @@
-# USB Rubber ducky/O.MG Cable scripts
+<h1 align="center"> # USB Rubber ducky/O.MG Cable scripts</h1>
 
 <img src="usb-rubber-ducky.jpg" height="520" width="1750" >
 <img src="usbrubberducky.png" height="520" width="1750" >
