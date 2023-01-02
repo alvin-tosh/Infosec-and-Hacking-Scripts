@@ -1,5 +1,5 @@
 ## Windows 11 pwn
-### To use this ducky script, 
+### To use this ducky script:
 you will need to replace;
 
 - [REMOTE_IP_ADDRESS], 
