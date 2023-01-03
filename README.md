@@ -1,3 +1,4 @@
+![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Hackerrank](https://img.shields.io/badge/-Hackerrank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white) ![Hackerearth](https://img.shields.io/badge/HackerEarth-%232C3454.svg?&style=for-the-badge&logo=HackerEarth&logoColor=Blue)
 # Infosec-and-Hacking-Scripts  	:monocle_face: :nerd_face:
 
       Scripts are lists of commands executed by certain programs or scripting engines. 👌
