@@ -3,7 +3,7 @@ This script scans a network for;
 - Hikvision, 
 - Dahua, 
 - Axis, 
-- Hanwha Techwin, 
+- Hanwha Techwin (coz S.east ASIA), 
 - IDIS, 
 - Honeywell 
 CCTV cameras.
