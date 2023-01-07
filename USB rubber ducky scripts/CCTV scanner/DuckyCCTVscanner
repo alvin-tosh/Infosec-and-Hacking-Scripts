@@ -1,0 +1,7 @@
+REM This script scans a network for Hikvision, Dahua, Axis, Hanwha Techwin, IDIS, Honeywell CCTV cameras.
+
+REM Change the value of the "network_range" variable to your desired network range
+SET network_range "192.168.0.0/24"
+
+REM Scan the network for cameras
+nmap -sV --script http-camera-discovery -p 80,443 %network_range%
