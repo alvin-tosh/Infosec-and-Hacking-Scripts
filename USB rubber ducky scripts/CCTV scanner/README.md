@@ -5,5 +5,5 @@ This script scans a network for;
 - Axis, 
 - Hanwha Techwin (coz S.east ASIA), 
 - IDIS, 
-- Honeywell (Very Popular in the united estates of Merica😝)
+- Honeywell (Para Gringos en el united estates of Merica😝)
 CCTV cameras.
