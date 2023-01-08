@@ -2,3 +2,4 @@
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 
 1. Argon2 encryption
+2. bCrypt encryption
