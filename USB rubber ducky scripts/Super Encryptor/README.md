@@ -4,9 +4,9 @@
     - The script then uses the scp command to connect to each host, copy all files and folders, 
     - encrypt all the files and folders, delete the original unencrypted files, and send back the encrypted files to the host.
 
-This script assumes that you have the nmap and scp commands installed, and also the ssh_key.pem. 
-Also, you need to be able to connect to the hosts using the specified username and ssh key, the ssh_key.pem.
+This script assumes that you have the 'nmap' and 'scp' commands installed, and also the 'ssh_key.pem' 
+Also, you need to be able to connect to the hosts using the specified username and ssh key, the 'ssh_key.pem'
 
-It's important to note that this script can cause serious damage if not used carefully. 
-Encrypting all files on a host may render the system unusable, as many system files are required for the system to function properly. 
-Please ensure you have the necessary permissions, access rights and backups before running this script.
+#### It's important to note that this script can cause serious damage if not used carefully. 
+#### Encrypting all files on a host may render the system unusable, as many system files are required for the system to function properly. 
+#### Please ensure you have the necessary permissions, access rights and backups before running this script.
