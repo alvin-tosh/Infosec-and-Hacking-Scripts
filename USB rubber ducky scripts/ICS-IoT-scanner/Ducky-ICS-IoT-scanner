@@ -1,0 +1,22 @@
+REM This script scans a network for Industrial Control Systems (ICS) and Internet of Things (IoT) devices and attempts to identify them.
+
+REM Change the value of the "network_range" variable to your desired network range
+SET network_range "192.168.0.0/24"
+
+REM Use Nmap to perform a TCP SYN scan on the specified network range, looking for open ports
+nmap -sS -p1-65535 %network_range% -oG - | grep open > open_ports.txt
+
+REM Use Nmap to perform a service version detection on the specified network range
+nmap -sV -p1-65535 %network_range% -oG - | grep open > version_info.txt
+
+REM Use Nmap's NSE scripts to identify the operating system of the devices
+nmap -O -p1-65535 %network_range% -oG - | grep open > os_info.txt
+
+REM Use Nmap to scan for common ICS and IoT devices
+nmap --script=ics-enum,iot-enum -p1-65535 %network_range% -oG - | grep open > ics_iot_info.txt
+
+REM Display the results of the scans
+type open_ports.txt
+type version_info.txt
+type os_info.txt
+type ics_iot_info.txt
