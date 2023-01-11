@@ -1,4 +1,4 @@
-## Ducky-ICS-IoT-Scanner
+## Ducky-ICS-IoT-Scanner ☄️
 This script scans a network for;
 
     🔥- Industrial Control Systems (ICS) and 
