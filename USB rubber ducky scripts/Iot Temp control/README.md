@@ -1,3 +1,4 @@
+Ducky-IoT-Temp-control
 This script will do the following:
 
     Open the Run dialog (Windows key + R)
