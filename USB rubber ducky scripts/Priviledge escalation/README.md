@@ -1,6 +1,6 @@
 ## Ducky-windows-Priviledge-escalation script
 
-This script will do the following:
+#### This script will do the following:
 
     Open the Run dialog (Windows key + R)
     Open a command prompt
