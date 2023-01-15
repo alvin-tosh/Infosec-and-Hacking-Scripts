@@ -1,4 +1,4 @@
-## Ducky-Priviledge-escalation script
+## Ducky-windows-Priviledge-escalation script
 
 This script will do the following:
 
