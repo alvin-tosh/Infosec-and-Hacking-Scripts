@@ -1,4 +1,5 @@
 ## WindowsRICKROLL Ducky script
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 ### Scans for windows hosts on a network and launches default browsers and plays rick roll on youtube on a loop
 To use this script, you will need to replace [IP_ADDRESS] with the IP address of the network you want to scan. 
 - For example, if you want to scan the 192.168.1.0/24 network, you would use 192.168.1.* as the IP address.
