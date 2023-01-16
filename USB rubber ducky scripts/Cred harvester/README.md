@@ -1,5 +1,7 @@
 ## Ducky cred Harvester script
 
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white) 
+
 #### This script will do the following:
 
     - Open the Run dialog (Windows key + R)
