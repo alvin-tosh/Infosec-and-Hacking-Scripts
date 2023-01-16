@@ -1,6 +1,8 @@
 ## Ducky Super-Encryptor
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white) ![Windows 11](https://img.shields.io/badge/Windows%2011-%230079d5.svg?style=for-the-badge&logo=Windows%2011&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 
+and (unless I am mistaken - haven't tested it yet) ![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white)
+
     - This script uses the nmap command to scan the specified network range for hosts that have port 22 open. 
     - It then filters the output to get only the IP addresses of the hosts, and save them in a file called hosts.txt. 
     - The script then uses the scp command to connect to each host, copy all files and folders, 
