@@ -2,7 +2,7 @@
 
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white) 
 
-#### This script will do the following:
+#### This script will:
 
     - Open the Run dialog (Windows key + R)
     - Open a command prompt
