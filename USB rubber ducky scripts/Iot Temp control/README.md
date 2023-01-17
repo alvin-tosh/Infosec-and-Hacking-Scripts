@@ -1,5 +1,5 @@
 ## Ducky-IoT-Temp-control
-#### This script will do the following:
+#### This script will:
 
     - Open the Run dialog (Windows key + R)
     - Open a web browser and navigate to the IP address of the temperature control system
