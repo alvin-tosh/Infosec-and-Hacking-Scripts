@@ -1,3 +1,5 @@
+## Ducky script for lateral propagation on a network
+
 This script will do the following:
 
     Open the Run dialog (Windows key + R)
