@@ -31,7 +31,7 @@ Introduction😄
 
 <img src="3105anoncover.gif" height="500" width="1750" >
 
-Scripts: (still structuring this repo....WIP..😏)
+Scripts: (still structuring this repo....😏)
 ------------
     * bruteforce - Password brute forcing.
     * cloud - Interacting with or testing cloud-based services.
@@ -44,6 +44,8 @@ Scripts: (still structuring this repo....WIP..😏)
     * webapp - Tools for web application testing.
     * wireless - Wireless testing tools.
     * phishing - Tools to facilitate phishing.
+    * USB Rubber ducky - Scripts for rubber ducky/O.mg cables/Arduino/Bad USB
+    * ChatGPT -Automation Scripts generated with chatGPT
   ----------------------------------------------------------------------------------------------------------------------------
 ```
 ## PS : THIS 👆 SCRIPTS AND REPO IS FOR EDUCATIONAL PURPOSES ONLY!! 
