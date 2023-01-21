@@ -6,4 +6,4 @@
     appends ".kenyatta" to the encrypted files, 
     and generates a random decryption key that is sent to a clandestine email address.
 
-### ⚠️ PLEASE USE WITH CARE!
+### ⚠️ PLEASE USE WITH CARE! ⚠️
