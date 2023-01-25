@@ -4,5 +4,5 @@
     1. Argon2 encryption
     2. bCrypt encryption
     3. vuln network scanner
-    4. AES-RSA example
+    4. AES-RSA example script
     5. Rudimentary AES-RSA message encryptor and decryptor 
