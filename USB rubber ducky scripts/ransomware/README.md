@@ -1,4 +1,6 @@
 # Mini-Kenyatta Ransomware
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+
     This script searches for startup folders and encrypts the files by appending ".kenyatta" to the encrypted files.
     It also deletes the unencrypted startup folder 🤣
     It uses GPG encryption (gpg is the OpenPGP {Pretty Good Privacy} part of the GNU Privacy Guard (GnuPG). 
