@@ -5,8 +5,13 @@
 
 
 # Usage, Use and Importance
--- Pull the docker image
+      - Pull the docker image (In Information), do not use this repository on your 
+      own computer or clone the repository and build the dockerfile on your down computer
+      - To run the image use ie: docker run --name <name_of_given_container> -it ghcr.io/algorithm-model-research/infosec-and-hacking-scripts:main bash 
+      or if it build your own image from the Dockerfile replace ie: docker run --name <name_of_given_container> -it <docker_image> bash
+      - To bash into the docker container after exiting it use ie: docker start -ia <name_of_given_container>
 -------------------------------------------------------------------------
+      - Small introduction for usage as there will be more complex introduction in https://github.com/Algorithm-Model-Research for useabilities
 -------------------------------------------------------------------------
 
       - Scripts are lists of commands executed by certain programs or scripting engines. 👌
@@ -29,7 +34,9 @@ Introduction😄
       
       * If you have any dope new scripts you use/Or a shoutout let me know as well/ Contribute; I am always looking for new scripts 😁
 
-      - For more instroctions into docker usage, check out the organization to get a betterunderstanding on how to use the image
+      - For more instroctions into docker usage, check out the organization to get a better understanding on how to use the image
+      - docker pull ghcr.io/algorithm-model-research/infosec-and-hacking-scripts:main
+      - docker pull ghcr.io/ronaldsonbellande/infosec-and-hacking-scripts:main
 
 <img src="3105anoncover.gif" height="500" width="1750" >
 
