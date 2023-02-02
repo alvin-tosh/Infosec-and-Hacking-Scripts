@@ -6,7 +6,7 @@
 
 # Usage, Use and Importance
 -- Pull the docker image
-
+-------------------------------------------------------------------------
 -------------------------------------------------------------------------
 
       - Scripts are lists of commands executed by certain programs or scripting engines. 👌
@@ -28,6 +28,8 @@ Introduction😄
       - CTFs...etc
       
       * If you have any dope new scripts you use/Or a shoutout let me know as well/ Contribute; I am always looking for new scripts 😁
+
+      - For more instroctions into docker usage, check out the organization to get a betterunderstanding on how to use the image
 
 <img src="3105anoncover.gif" height="500" width="1750" >
 
