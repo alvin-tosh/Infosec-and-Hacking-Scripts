@@ -1,5 +1,5 @@
 ## Ducky-windows-Priviledge-escalation script
-
+![Microsoft](https://img.shields.io/badge/Microsoft-0078D4?style=for-the-badge&logo=microsoft&logoColor=white) 
 #### This script will do the following:
 
     Open the Run dialog (Windows key + R)
