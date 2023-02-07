@@ -44,7 +44,7 @@ Scripts you will find: (still structuring this repo....😏)
 ```
 ## PS : THIS 👆 SCRIPTS AND REPO IS FOR EDUCATIONAL PURPOSES ONLY!! 
 I am NOT responsible for the misuse of this scripts to cause harm 👿 in the public 👨‍👨‍👧‍👧 or upon any infrastructure 🏛️. 
-USE THESE VERY POWERFUL TOOLS RESPONSIBLY, BE COOL!👌 😏 😜
+USE THESE VERY POWERFUL AND FUN TOOLS RESPONSIBLY, you know, like alcohol! BE COOL!👌 😏 😜
 
 ```
 
