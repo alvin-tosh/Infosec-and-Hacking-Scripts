@@ -25,7 +25,7 @@ Introduction😄
 
 <img src="3105anoncover.gif" height="500" width="1750" >
 
-Scripts: (still structuring this repo....😏)
+Scripts you will find: (still structuring this repo....😏)
 ------------
     * bruteforce - Password brute forcing.
     * cloud - Interacting with or testing cloud-based services.
