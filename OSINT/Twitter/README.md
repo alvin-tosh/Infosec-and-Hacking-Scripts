@@ -1,6 +1,7 @@
-[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 
-## TWINT SCRIPTS: Twitter Intelligence Tool
+
+## TWINT: Twitter Intelligence Tool
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 ### Install Twint to mess with these scripts. Share or contribute your twint scripts as well.
 
 # TWINT - Twitter Intelligence Tool
