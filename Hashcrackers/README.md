@@ -1,2 +1,2 @@
-## Simple script to deal with hashes
+## Simple script to deal hashes
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
