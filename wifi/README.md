@@ -1,1 +1,1 @@
-# WiFI Cheatsheet
+# WiFi Cheatsheet
