@@ -1,5 +1,6 @@
+# Denial of service
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
-# Description
+## Description
 
 This script is written in python3 and can be used to perform a DoS(Denial of Service) attack on a website. To run this script on your system, check if your system is supported or not(Supported systems are mentioned below). As you run the script, it asks you to provide the website's domain or IP address and the port number starting from which you want to send packets. Once the information is provided, the script will start sending packets to that domain starting from the port number provided. It will keep on sending resources to that site. Depending upon the website's capacaity to handle incoming packets, the script might overwhelm it and finally not make it work. 
 
