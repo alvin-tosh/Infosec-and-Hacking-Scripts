@@ -55,6 +55,7 @@ Scripts you will find: (still structuring this repo....😏)
     * phishing - Tools to facilitate phishing.
     * USB Rubber ducky - Scripts for rubber ducky/O.mg cables/Arduino/Bad USB
     * ChatGPT -Automation Scripts generated with chatGPT
+    * Miscellaneous
   ----------------------------------------------------------------------------------------------------------------------------
 ```
 ## PS : THIS 👆 SCRIPTS AND REPO IS FOR EDUCATIONAL PURPOSES ONLY!! 
