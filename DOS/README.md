@@ -11,7 +11,7 @@ This script is written in python3 and can be used to perform a DoS(Denial of Ser
  This program is supported in all operating system like Linux, Windows, etc. And, as the code is written in python3, it works well without bugs.
 
 
-##Instructions for this python script to work : 👨🏻‍💻
+## Instructions for this python script to work : 👨🏻‍💻
 
 ### Step 1:
 
