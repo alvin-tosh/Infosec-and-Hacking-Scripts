@@ -12,7 +12,7 @@ Introduction😄
 ------------
       This is a collection of scripts I USE while learning scripting and programming or used in pentests😉
       * I DO NOT claim ownership of all scripts...This is just a convenient collection of different scripts
-      * written by different authors (including myself) for different scenarios in pentesting...A hackers Bible of some sort😄
+      * Written by different authors (including myself) for different scenarios in pentesting...A hackers Bible of some sort😄
       
       * MOST, save for a few, are written by other reserchers from;
       - GITHUB ( Maldevel, threat9, John Hammond...etc), 
