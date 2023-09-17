@@ -10,9 +10,9 @@
       - To run the image use ie: docker run --name <name_of_given_container> -it ghcr.io/algorithm-model-research/infosec-and-hacking-scripts:main bash 
       or if it build your own image from the Dockerfile replace ie: docker run --name <name_of_given_container> -it <docker_image> bash
       - To bash into the docker container after exiting it use ie: docker start -ia <name_of_given_container>
--------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
       - Small introduction for usage as there will be more complex introduction in https://github.com/Algorithm-Model-Research for useabilities
--------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
       - Scripts are lists of commands executed by certain programs or scripting engines. 👌
       - They are usually text documents with instructions written using a scripting language. 😜
@@ -64,3 +64,6 @@ USE THESE VERY POWERFUL AND FUN TOOLS RESPONSIBLY, you know, like alcohol! BE CO
 
 ```
 
+# Contributor
+- Palpatine @alvin-tosh 
+- Ronaldson Bellande @RonaldsonBellande
